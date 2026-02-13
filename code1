@@ -9,7 +9,7 @@ public:
         // 1️⃣ rob current node
         int take = root->val + left.second + right.second;
 
-        // 2️⃣ skip current node
+        // 2️⃣ skip current node//
         int skip = max(left.first, left.second) +
                    max(right.first, right.second);
 
