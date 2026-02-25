@@ -14,7 +14,7 @@ public:
             int width;
 
             if(st.empty())
-            width =i;
+            width =i;//j,hbhj
             else
             width = i - st.top()-1;
 
